@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Car Shop</title>
+
+    <style>
+
+        body{
+            font-family: Arial;
+            background: #f2f2f2;
+        }
+
+        .container{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .card{
+            width: 300px;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+
+        .card img{
+            width: 100%;
+            height: 200px;
+        }
+
+        .card-body{
+            padding: 15px;
+        }
+
+        button{
+            background: darkblue;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="card">
+            <img src="F80.jpg">
+            <div class="card-body">
+                <h3>Ferrari F430</h3>
+                <p>$25,000</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="fr.jpg">
+            <div class="card-body">
+                <h3>Ferrari F80</h3>
+                <p>$50,000</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
